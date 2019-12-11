@@ -33,7 +33,7 @@
                 <ul>
                     <li><a onClick="navSection('home')" href="#">Home</a></li>
                     <li><a onClick="navSection('aboutme')" href="#">Sobre mí</a></li>
-                    <li><a onClick="navSection('skills')" href="#">Skils</a></li>
+                    <li><a onClick="navSection('skills')" href="#">Skills</a></li>
                     <li><a onClick="navSection('portfolio')" href="#">Programas</a></li>
                     <li><a onClick="navSection('blog')" href="#">Blog</a></li>
                     <li><a href="#">Contacto</a></li>
@@ -48,12 +48,30 @@
 
     </header>
 
+
     <div id="slider">
         <section class="slide" id="home" style="display:block" ></section>
         <section class="slide" id="aboutme" style="display:none"></section>
         <section class="slide" id="skills" style="display:none"></section>
         <section class="slide" id="portfolio" style="display:none"></section>
         <section class="slide" id="blog" style="display:none"></section>
+    </div>
+
+    <div id="contact_form">
+        <form action="contact.php" id="form1" name="form1" method="post">
+            <div id="close_form"></div>
+            <figure id="logo_mensaje" ><img  src="iconos/mail.png"alt=""> </figure>
+            <p>Dí Hola!</p>
+
+            <input type="text" id="name" name="name" placeholder="Nombre">
+
+            <input type="email" id="email" name="name" placeholder="Correo electronico">
+
+            <input type="submit" name="Submit" id="button" value="ENVIAR">
+
+            <textarea name="message" id="message" placeholder="Mensaje"></textarea>
+
+        </form>
     </div>
 
     <script>

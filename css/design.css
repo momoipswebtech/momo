@@ -69,10 +69,11 @@ header #next_section{
     width: 22px;
     height: 22px;
     cursor: pointer;
-    margin: 5px;
+    /*margin: 5px;*/
+    margin: 10px 10px 3px 3px; 
     position: absolute;
     top: 0px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 header #prev_section{
     right: 40px;
